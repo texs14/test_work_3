@@ -1,0 +1,32 @@
+.logo {
+  &__img {
+    width: 158px;
+    height: 52px;
+
+    &_screen {
+      &_mobail {
+        display:none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .logo {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      &_screen {
+        &_full {
+          display: none;
+        }
+        &_mobail {
+          display:block;
+          width: 92px;
+          height: 19px;
+        }
+      }
+    }
+  }
+}

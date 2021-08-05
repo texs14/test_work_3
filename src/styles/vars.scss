@@ -1,0 +1,16 @@
+$bgPrimary: #F2F3F6;
+$colorTextPrimary: #054bf1;
+$colorTextSecond: #001E82;
+
+$colorTextPlaceholder: #808FC0;
+
+@mixin paragraphMiddleSize() {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@mixin paragraphSmallSize() {
+  font-size: 14px;
+  line-height: 16px;
+}
+

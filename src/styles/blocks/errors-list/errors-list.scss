@@ -1,0 +1,13 @@
+.errors-list {
+  list-style: none;
+
+  background: #ffc5c5;
+
+  margin-top: 15px;
+
+  &__error {
+    color: #001E82;
+    margin: 10px;
+    font-weight: bold;
+  }
+}

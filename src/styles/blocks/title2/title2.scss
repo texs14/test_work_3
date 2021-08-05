@@ -1,0 +1,14 @@
+.title2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+
+  color: $colorTextSecond;
+}
+
+@media (max-width: 1024px) {
+  .title2 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+}

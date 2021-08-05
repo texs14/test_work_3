@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "type": "text",
+      "name": "name",
+      "placegolder": "ФИО"
+    },
+    {
+      "type": "text",
+      "name": "dateOfBirth",
+      "placegolder": "Дата рождения"
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "placegolder": "Почта"
+    },
+    {
+      "type": "tel",
+      "name": "phoneNumber",
+      "placegolder": "Телефон"
+    },
+    {
+      "type": "text",
+      "name": "address",
+      "placegolder": "Адрес фактического проживания"
+    },
+    {
+      "type": "range",
+      "name": "levelJS",
+      "placegolder": "Уровень владения JavaScript"
+    }
+  ]
+}

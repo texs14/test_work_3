@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета соискателя</title>
+</head>
+<body class="body">
+    <header class="header">
+        <a href="/" class="header__logo logo">
+            <img src="https://psv4.userapi.com/c534536/u132463526/docs/d45/288a92aaa259/Group_1.png?extra=jSvJRB2ZXibl-PoE5cRa2-5UlptemA0lY71sdt0nAktM8DTlndw6YOr0HsaXAx77GYQgjmzyyNQcVkCOuwtj4beJwAB2XXwg2P50_xKHJGGobanBt5ZwaF_9fHUFhl03Djf4NkVEkdPbd4WN5r-_5IrUKg" alt="логотип" class="logo__img logo__img_screen_full">
+            <img src="https://psv4.userapi.com/c534536/u132463526/docs/d42/1b544639de95/Group_2.png?extra=uBgkKoFxsfZK0h0pDak4B-LFVOZJsGsz_KoksfnGNPETfnWIvWx2SJ8ImA-GfU3KouyFV9Q_ZSacn0VlTmaokcjuYjC8VqY8HZoZmAwbetkfhfzyRz32QFkaOINQPXWnx3mQ7WF3lSYuoUhJNc_CE7FB9Q" alt="логотип" class="logo__img logo__img_screen_mobail"></a>
+        <div class="header__wrapper">
+            <p class="header__paragraph">Возникли вопросы? <br/><br/>
+            Задайте свой вопрос в Telegram</p>
+            <a href="tg://resolve?domain=bot_Hopper" class="header__link"> @bot_Hopper</a>
+        </div>
+    </header>
+    <main class="main">
+        <form action="#" class="application-form">
+            <h2 class="application-form__title2 title2">Анкета соискателя</h2>
+            <p class="application-form__description">Допускается загрузка документов в форматах PDF, JPG, JPEG, PNG</p>
+            <div class="application-form__input-wrapper">
+
+            </div>
+            <fieldset class="application-form__wrapper">
+                <legend class="application-form__wrapper-title">Вид трудовой книжки</legend>
+                <input type="radio" checked name="jobBook" value="Электронная" class="radio-input" id="radio_el"><label for="radio_el" class="radio-input__lable" id="radio_electro"> Электронная</label>
+                <input type="radio" name="jobBook" value="Бумажная" class="radio-input" id="radio_pap"><label for="radio_pap" class="radio-input__lable" id="radio_paper"> Бумажная</label>
+            </fieldset>
+            <fieldset class="application-form__wrapper">
+                <legend class="application-form__wrapper-title">Трудовая книжка / выписка из электронной книжки</legend>
+                <label for="file" class="input-file__lable">Прикрепить файл</label>
+                <input id="file" name="filePath" type="file" class="input-file">
+            </fieldset>
+            <button class="application-form__submit">Отправить</button>
+            <ul class="errors-list"></ul>
+        </form>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.slider-range {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  z-index: 5;
+
+  &__range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 0;
+    cursor: pointer;
+
+
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 11px;
+      height: 11px;
+      border-radius: 100%;
+      background: transparent;
+    }
+  }
+  &__progress{
+    position: absolute;
+    content:'';
+    width: 25%;
+    height: 30px;
+    background-color: #1B2FB2;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

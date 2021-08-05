@@ -1,0 +1,196 @@
+.lable {
+  width: 100%;
+  height: 56px;
+
+  background: $bgPrimary;
+
+  position: relative;
+
+  &__placeholder {
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    z-index: 2;
+
+    transition: .5s;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    color: $colorTextPlaceholder;
+  }
+
+  &__locate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+
+    width: 44px;
+
+    cursor: pointer;
+    background: url("https://psv4.userapi.com/c520036/u132463526/docs/d36/df2839c9db93/Vector_1.png?extra=pMVWR1ouheV5-9dLnP3NAjrY8RaMS1Rigw1hhjbUtiiHpJEQ9-PQpAKMOXZeFXX9VPS3ljXspWZnCacEgFv0waBKfg1G_80d0DDv0qOXqhX3_8fkIrTuCMuAdJi1LWJLaHzFNJAajx4cw4bN1RMBVqeasg") center / 40% no-repeat;
+
+  }
+}
+
+.input {
+
+  position: relative;
+
+  z-index: 1;
+
+  height: 56px;
+  width: 100%;
+
+  outline: none;
+
+  padding-left: 16px;
+  padding-top: 24px;
+  box-sizing: border-box;
+
+  border: none;
+  border-bottom: 2px solid #001E82;
+
+  background: transparent;
+
+  color: #001E82;
+
+  font-weight: bold;
+
+  @include paragraphMiddleSize;
+
+  &::-webkit-calendar-picker-indicator {
+    background-image: none;
+  }
+
+  &_icon {
+    &_geotag {
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.radio-input {
+
+  display: none;
+  
+  &:checked + .radio-input__lable {
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+
+      position: absolute;
+
+      left: -28px;
+      top: 4px;
+
+      border-radius: 100%;
+
+      width: 10px;
+      height: 10px;
+
+      background: $colorTextSecond;
+    }
+
+    &:before {
+      border: 1px solid $colorTextSecond;
+    }
+  }
+
+  &__lable {
+    display: block;
+    color: $colorTextSecond;
+
+    margin-left: 35px;
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+
+      position: absolute;
+
+      left: -35px;
+      top: -2px;
+
+      border-radius: 100%;
+
+      width: 20px;
+      height: 20px;
+
+      border: 1px solid #808FC0;
+    }
+  }
+}
+
+.input-file {
+  display: none;
+  background: #F2EFFF;
+
+  &__lable {
+    position: relative;
+
+    border-radius: 4px;
+    width: 187px;
+    border: 1px solid transparent;
+
+    padding: 6px 12px;
+    padding-left: 26px;
+    box-sizing: border-box;
+
+    background: #F2EFFF;
+
+    color: $colorTextSecond;
+    @include paragraphMiddleSize;
+
+    &:hover {
+      border: 1px solid $colorTextSecond;
+    }
+
+    &:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+
+      background: url("https://psv4.userapi.com/c537232/u132463526/docs/d48/c6bc85ee4948/Vector_2.png?extra=-OJO3hMzuyP96e6StV61UrNAkc2CaCwtSMbqqh5FLlsG_pxsf5Wo81A482blaKcTC1g17VSXHg0GaunPssAIvzyulQe72-gUnLomnczJICdKpNeWaCEsS6FpsNrZqDnm-Np3MQVG0wyIkzrmI4V60p2wDA") center / 35% no-repeat;
+      width: 29px;
+    }
+  }
+}
+
+.focus {
+  top: 12px !important;
+  left: 16px !important;
+
+  font-size: 12px;
+}
+
+@media (max-width: 520px) {
+  .lable {
+    &__placeholder {
+      @include paragraphSmallSize;
+    }
+  }
+}
