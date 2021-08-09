@@ -81,7 +81,7 @@ body {
         display: inline-block;
         width: 13px;
         height: 11px;
-        background: url("https://psv4.userapi.com/c532036/u132463526/docs/d31/f736c118226a/Vector_3.png?extra=qtQkGMiZXByiEEedFRmOjA3juGBbyEe7tbgs14svje_55pqISq3GkIZU5PBZxEvvYKaISorecvi_hWG0nzxxfir4QU_aO1x1qRz-Wu8Acd8t-QMfnMP_WFp_6IX3M9VYta_-MKw0kLZ-2Ts-D4RfEv4iOQ") center / 100% no-repeat;
+        background: url(../images/telegram.svg) center / 100% no-repeat;
       }
     }
 
@@ -99,6 +99,7 @@ body {
 
 @media (max-width: 520px) {
   .header {
+
     width: 100%;
     height: 56px;
 

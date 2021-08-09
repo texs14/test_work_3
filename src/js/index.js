@@ -232,6 +232,4 @@ if(Array.isArray(inputsJSON.inputs)) {
 
         if(!messageErrors.filter(i => i !== "ok").length) console.log(valueObj);
     })
-
-
 }

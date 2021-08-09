@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6778b7c-3979-4585-8d99-9ebf5e8fd008" name="Default Changelist" comment="" />
+    <list default="true" id="f6778b7c-3979-4585-8d99-9ebf5e8fd008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/input/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1wGfJpleVd2xhLmvgrdVlHpSB4z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,19 +36,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/blocks/errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MetaLamp/onMenuItemSelected" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\projects\test_work_hopper\src\styles\blocks\errors" />
-      <recent name="G:\projects\test_work_hopper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\projects\test_work_hopper\src\styles\blocks\logo" />
       <recent name="G:\projects\test_work_hopper\src\styles" />
       <recent name="G:\projects\test_work_hopper\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\test_work_hopper\src\styles\blocks\errors" />
+      <recent name="G:\projects\test_work_hopper" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +60,11 @@
       <option name="presentableId" value="Default" />
       <updated>1628089776521</updated>
       <workItem from="1628089777551" duration="8986000" />
-      <workItem from="1628128596781" duration="49470000" />
+      <workItem from="1628128596781" duration="50191000" />
+      <workItem from="1628186696552" duration="378000" />
+      <workItem from="1628337580699" duration="2206000" />
+      <workItem from="1628416003732" duration="38000" />
+      <workItem from="1628430016704" duration="4873000" />
     </task>
     <servers />
   </component>
@@ -60,10 +76,14 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="610" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1628178730941" />
-    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1628149406828">
+    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628492341953">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1628149406828" />
+    <state x="570" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1628492341953" />
+    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1628492934033">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1628492934033" />
     <state x="546" y="209" width="587" height="592" key="find.popup" timestamp="1628181305424">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

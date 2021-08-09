@@ -1,13 +1,12 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require('path')
+const webpack = require('webpack')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: {
-        index: path.resolve(__dirname, './src/js/index.js')
+        index: path.resolve(__dirname, './src/js/index.js'),
     },
     output: {
         path: path.resolve(__dirname, './dist'),
@@ -29,8 +28,6 @@ module.exports = {
             filename: "index.html",
             template: path.relative(__dirname, './src/index.html'),
         }),
-        new CleanWebpackPlugin(),
-        new webpack.HotModuleReplacementPlugin(),
         new MiniCssExtractPlugin({
             filename: '[name].css',
         }),
@@ -44,17 +41,24 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ['babel-loader'],
             },
-            //SCSS
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'postcss-loader'
+                ]
+            },
             {
                 test: /\.s?css$/i,
                 use: [
-                    MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader',
                     'postcss-loader'
                 ],
             },
-            // Fonts
+
+            // шрифты
             {
                 test: /\.(woff(2)?|eot|ttf|otf|)$/,
                 type: 'asset/inline',
@@ -66,7 +70,7 @@ module.exports = {
                     `file-loader?name=images/[name].[ext]`,
                     {
                         loader: 'image-webpack-loader',
-                    }
+                    },
                 ]
             },
         ],
